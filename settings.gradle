@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven { name = "Fabric"; url = "https://maven.fabricmc.net/" }
+        maven { name = "Patbox"; url = "https://maven.pb4.eu/" }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = "combatmod"
